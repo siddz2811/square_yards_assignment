@@ -160,7 +160,7 @@ Answer (format: Yes/No + reason + source filename):""")
     return prompt
 
 
-# STEP 11: Build RAG Chain
+# Build RAG Chain
 
 def build_rag_chain(retriever, prompt, llm):
     """complete RAG pipeline """
@@ -178,7 +178,7 @@ def build_rag_chain(retriever, prompt, llm):
     return chain
 
 
-# STEP 12: Chatbot with Memory
+# Chatbot with Memory
 
 class TechCorpChatbot: 
     def __init__(self, chain):
@@ -212,7 +212,7 @@ class TechCorpChatbot:
         print("Type 'exit' to quit.\n")
 
 
-# STEP 13: Initialize and Run Chatbot
+# Initialize and Run Chatbot
 
 def initialize_system():
     """Initialize all components and return chatbot"""
@@ -236,7 +236,7 @@ def initialize_system():
     return chatbot
 
 
-# STEP 14: Main Chatbot Loop
+# Main Chatbot Loop
 
 def main():
     """Run the chatbot"""
