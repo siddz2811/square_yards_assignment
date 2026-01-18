@@ -5,19 +5,18 @@ The task is to build a Retrieval-Augmented Generation (RAG) pipeline that can an
 
 ## Setup & How to run (Windows)
 1. Clone:
-   - git clone https://github.com/siddz2811/square_yards_assignment.git
-   - cd square_yards_assignment
+   - ```git clone https://github.com/siddz2811/square_yards_assignment.git```
 2. Create myenv:
-   - python -m venv myenv
+   -  ```python -m venv myenv```
 3. Activate myenv:
-   - myenv\Scripts\Activate
+   - ```myenv\Scripts\Activate```
 4. Install dependencies:
-   - pip install -r requirements.txt
+   - ```pip install -r requirements.txt```
 5. Set API key for pinecone and groq and store them in an .env file:
-   - GROQ_API_KEY="your_api_key"
-   - Pinecone_api_key="your_pinecone_api_key"
+   - ```GROQ_API_KEY="your_api_key"```
+   - ```Pinecone_api_key="your_pinecone_api_key"```
 6. Run:
-   - python rag.py
+   - ```python rag.py```
    
 ## NOISE_FILTERING_RESULT.png
 - Specifically shows that cafeteria docs is not included in company policies
